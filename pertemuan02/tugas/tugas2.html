@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Kartu</title>
+	<style type="text/css">
+		/*body{
+			font-family: arial;
+			font-size: 20px;
+			color: red;
+		}*/
+	</style>
+</head>
+
+<body>
+	<form action="hasil2.php" method="post">
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			<tr>
+				<td>Tempat Lahir</td>
+				<td><input type="text" name="password"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td><input type="date" name="tanggal"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td><textarea name="alamat"></textarea></td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td><textarea name="agama"></textarea></td>
+			</tr>
+			<tr>
+				<td>Status Nikah</td>
+				<td><select name="sk">
+						<option value="Menikah">Menikah</option>
+						<option value="Jomblo">Jomblo</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td><select name="jk">
+						<option value="L">Laki laki</option>
+						<option value="P">Perempuan</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="submit">
+					<input type="reset" name="reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
